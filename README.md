@@ -1,8 +1,7 @@
-A customized SAT solver is developed. Multiple set of heuristics are implemented to develop SAT solver according to the task.
+A customized SAT solver is developed. Multiple set of heuristics are implemented to develop various SAT solvers according to the task requirement.
 
 
 Current set of Heuristics:
-
 1) Sort the input file such that smaller formulas come above. 
 2) In every line sort in decreasing order of no of time that literal appears in the whole file.
 3) Unit propagation
