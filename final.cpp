@@ -116,13 +116,16 @@ int func_0(vector<vector<int>> V){
 int main()
 {
 	
-	string input; 
+	string input_str; 
 
 	clock_t t1,t2;
 	t1=clock();
 
+	cout << "Input File: " ;
+	cin >> input_str;
+	cout << endl;
 	ifstream in;
-	in.open("data.txt");
+	in.open(input_str);
 
 	if(!in)
 	{
