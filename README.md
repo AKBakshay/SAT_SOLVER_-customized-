@@ -21,3 +21,11 @@ g++ final.cpp
 ./a.out
 
 Input: DIMACS file in .txt format
+
+------------------------------------------------------
+
+The other files are the task specific implementation of SAT solver. It involved 
+1. Finding the solution to Sudoku
+2. Generating sudoku using randomized algorithm
+
+The corresponding files are main.cpp, decrypt.cpp.
